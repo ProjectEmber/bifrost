@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Bifrost - Project Ember Control Units unified interface",
   "scripts": {
-    "zip-get": "zip -r ../deployment/bifrostGet.zip indexGet.js node_modules",
-    "zip-post": "zip -r ../deployment/bifrostPost.zip indexPost.js node_modules"
+    "zip-search": "zip -r ../deployment/bifrostSearch.zip indexSearch.js node_modules",
+    "zip-put": "zip -r ../deployment/bifrostPut.zip indexPut.js node_modules"
   },
   "license": "Apache-2.0"
 }
