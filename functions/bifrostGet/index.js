@@ -16,5 +16,4 @@ exports.handler = (event, context, callback) => {
         data: null,
     });
 
-
 }
