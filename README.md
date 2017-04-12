@@ -1,2 +1,2 @@
 # bifrost
-Project Ember control units unified API
+Project Ember control units unified API (for AWS Lambda)
