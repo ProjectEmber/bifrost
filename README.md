@@ -3,7 +3,7 @@ Project Ember control units unified API (for AWS Lambda)
 
 ## Usage
 These functions are a blueprint and a concept to implement a root directory to collect and unify the retrieval of the control units which are 
-into the Project Ember grid. Please remember to upload a zip updated with your specific Elasticsearch cluster host address into your AWS Lambda function. You can also specify the body mapping using the templates provided.
+into the Project Ember grid. Please remember to upload a zip updated with your specific Elasticsearch cluster host address into your AWS Lambda function. You can also specify the body mapping using the templates provided to provision via AWS API Gateway and generate your very own SDK.
 
 Please note that the directory is built to be flexible: use as your CU name the address where it is located and search by such a name to have backward compatibility with a city grid, or use an alphanumeric identifier for general purpose solutions. 
 
