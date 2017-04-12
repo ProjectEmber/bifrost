@@ -52,6 +52,15 @@ exports.handler = (event, context, callback) => {
         };
     }
 
+    // QUERY BY NAME
+    if (searchtype == "name") {
+        // searching by name in the control units collection
+        // (for example it can be the address)
+        queryobj = {
+            match: { name: search }
+        };
+    }
+
     // QUERY BY AREA
     if (searchtype == "area") {
         // searchinb by area using coordinates and geoquery
