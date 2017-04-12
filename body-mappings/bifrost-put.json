@@ -1,0 +1,9 @@
+{
+    "id"   : "$input.json('$.cu_name')",
+    "name" : "$input.json('$.cu_name')",
+    "ip"   : "$input.json('$.cu_ip')",
+    "location": {
+        "latitude" : "$input.json('$.cu_location.lat')",
+        "longitude": "$input.json('$.cu_location.lon')"
+    }
+}

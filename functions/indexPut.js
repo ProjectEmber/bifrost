@@ -3,7 +3,7 @@
 // including AWS SDK
 const AWS = require('aws-sdk');
 // including Elasticsearch SDK
-const Elasticsearch = require('elasticsearch');
+const elasticsearch = require('elasticsearch');
 
 // retrieving handlers
 exports.handler = (event, context, callback) => {
@@ -15,5 +15,14 @@ exports.handler = (event, context, callback) => {
         msg: err ? err.message : res,
         data: null,
     });
+
+    // creating elasticsearch client
+    // (replace host with your elasticsearch cluster address!)
+    var client = new elasticsearch.Client({
+        host: 'db.project-ember.city:9200',
+        log: 'trace'
+    });
+
+    
 
 }
