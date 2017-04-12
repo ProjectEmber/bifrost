@@ -85,6 +85,8 @@ exports.handler = (event, context, callback) => {
             index: 'ember',
             type: 'control_units',
             body: {
+                from: 0,
+                size: 10000,
                 query: queryobj
             }
         }
