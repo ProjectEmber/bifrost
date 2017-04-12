@@ -1,0 +1,4 @@
+{
+    "type"          : "$input.json('$.type')",
+    "search"        : "$input.json('$.search')"
+}
